@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="PythonRange_Crash.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PythonRange_Crash"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>            
+            <Button Content="Python For in range(see vs output window)" Click="Button_Python_Range_Click" Margin="20"/>            
+            <Button Content="CallSite MyKeyValuePair" Click="Button_Call_Site_MyKeyValuePair" Margin="20"/>
+            <Button Content="CallSite KeyValuePair (Crash in release)" Click="Button_Call_Site_KeyValuePair" Margin="20"/>
+        </StackPanel>
+    </Grid>
+</Page>
